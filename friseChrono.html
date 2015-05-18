@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title>votre superbe page web créée le jeu. 30 avr. 2015 12:52</title>
+    <style type="text/css">
+      table {
+        /*border:black 1px dotted;*/
+        width:100%;
+        border-spacing:0;
+        
+      }
+      td {
+        border:blue 1px solid;
+        text-align:center;
+        padding:10;
+        border-radius:5px;
+      }
+      #dates{
+        font-family:"Comic Sans MS", fantasy;
+        font-size:85%;
+        background-color:yellow;
+        font-weight:bold;
+      }
+      #emploi{
+        font-family:"Comic Sans MS", fantasy;
+        font-size:85%;
+        background-color:lavender;
+      }
+      a{
+        text-decoration:none;
+        color:black;
+      }
+      .details{
+        border:1px pink dotted;
+        border-radius:5px / 10px;
+        height:50px;
+        background-color:rgba(200,0,100,.6);
+        
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Frise chronologique</h1>
+    <!-- à générer avec php lié à la base de données Timeline-->
+    <table>
+      <tr id="dates" width="100%">
+        <td>->1990</td>
+        <td>09/1990-06/1991</td>
+        <td>09/1991-06/1995</td>
+        <td>04/1996-12/1999</td>
+        <td>01/2000-08/2002</td>
+        <td>09/2002-08/2005</td>
+        <td>09/2005-09/2006</td>
+        <td>09/2006-12/2013</td>
+        <td>02/2013->07/2015</td>
+      </tr>
+      <tr id="emploi" width="100%">
+        <!-- avec un clic sur une "case" on affiche les détails dans le div en bas-->
+        <td><a href="">Collèges et Lycées</a></td>
+        <td>Classe Prépa<br/>Bordeaux</td>
+        <td>Ecole des Mines d'Alès</td>
+        <td>CRCI Bourgogne<br />Dijon</td>
+        <td>Expatriation Grande Bretagne<br />Stoke-on-Trent
+          <br />Master SC in IT<br />Keele University</td>
+        <td>Retour en France<br />Clermont-Ferrand</td>
+        <td>puis Laval</td>
+        <td>Greta 53<br />Laval</td>
+        <td>Micro Lycée<br />Laval</td>
+      </tr>
+    </table>
+    <div class="details">
+      <!-- contient les détails des moments
+		cool si reste au milieu de la page tandis que le reste peut défiler en largeur
+		voir thehorizontalway.com
+			ou https://css-tricks.com/how-to-create-a-horizontally-scrolling-site/
+-->
+    </div>
+  </body>
+</html>
+
