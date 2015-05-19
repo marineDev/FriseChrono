@@ -1,0 +1,37 @@
+ table {
+        /*border:black 1px dotted;*/
+        width:100%;
+        border-spacing:0;
+    }
+	
+td {
+        border:blue 1px solid;
+        text-align:center;
+        padding:10;
+        border-radius:5px;
+    }
+	  
+#dates{
+        font-family:"Comic Sans MS", fantasy;
+        font-size:85%;
+        background-color:yellow;
+        font-weight:bold;
+    }
+	
+#emploi{
+        font-family:"Comic Sans MS", fantasy;
+        font-size:85%;
+        background-color:lavender;
+    }
+	
+a{
+        text-decoration:none;
+        color:black;
+    }
+	
+.details{
+        border:1px pink dotted;
+        border-radius:5px / 10px;
+        height:50px;
+        background-color:rgba(200,0,100,.6);        
+    }
